@@ -1,0 +1,6 @@
+{
+  "name":"GitPuller",
+  "description":"Get updates from a git repository",
+  "author":"Wojciech Bednarzak <wojtek.bednarzak@gmail.com",
+  "version":"0.0.1"
+}

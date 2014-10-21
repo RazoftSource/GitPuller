@@ -1,0 +1,8 @@
+{
+  "service":"github",
+  "repository":"http://github.com/RazoftSource/GitPull",
+  "branch":"master",
+  "listen_port":3332,
+  "app_dir":"/path/to/application",
+  "override_dir":true
+}
