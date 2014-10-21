@@ -36,6 +36,6 @@ res.writeHead("200");
 //Pull function
 var Pull = function(data){
   if(config.branch == data.ref.split('/')[2]){
-    console.log("TRUE")
+    console.log("TRUE");
   }
 };
