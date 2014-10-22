@@ -36,6 +36,11 @@ res.writeHead("200");
 //Pull function
 var Pull = function(data){
   if(config.branch == data.ref.split('/')[2]){
-    console.log("TRUE");
+    console.log("Branch Matched");
+
+    // Update repository
+    exec('rm -Rf '+config.app_dir+' && mkdir -p '+config.app_dir+' && cd '+config.app_dir+' && git init && git clone '+config.repository+' --branch '+config.branch+' --single-branch --depth 1', function(err){
+
+    });
   }
 };
